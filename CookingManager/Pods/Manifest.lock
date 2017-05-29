@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (4.4.0)
+  - AlamofireObjectMapper (4.1.0):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 2.0)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - Kingfisher (3.9.1)
+  - ObjectMapper (2.2.6)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - AlamofireObjectMapper (~> 4.0)
+  - FMDB
+  - Kingfisher
+  - ObjectMapper (~> 2.2)
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  AlamofireObjectMapper: 435adc82f5b367679bd9e71c4974a54efd0b2521
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  Kingfisher: 6729a0baaa458245bfb8cd5a1296c71c10d6eb6c
+  ObjectMapper: 042708195cc46c20871cbcbec0453826398273fd
+
+PODFILE CHECKSUM: 88c60aa2bd5d3e35592752a12c1d8292ad8b839e
+
+COCOAPODS: 1.1.1
