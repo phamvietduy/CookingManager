@@ -21,5 +21,9 @@ class ViewControllerBase: UIViewController, ViewControllerBaseProtocol {
     var hasNavigationBar: Bool{
         return true;
     }
+    
+    class func  className() -> String {
+        return "\(self)"
+    }
 }
 

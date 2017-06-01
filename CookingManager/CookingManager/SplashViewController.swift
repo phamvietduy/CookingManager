@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SplashViewController: UIViewController {
+class SplashViewController: ViewControllerBase {
 
     @IBOutlet weak var imageView: UIImageView!
     
@@ -16,6 +16,12 @@ class SplashViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        self.animationSplash()
+    }
+
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
     }
 
     override func didReceiveMemoryWarning() {
@@ -43,13 +49,18 @@ class SplashViewController: UIViewController {
     }
     
     func goToHomeScreen(){
-        let homeVc = HomeViewController(nibName: nil, bundle: nil)
-        let arrVC: [UIViewController] = [homeVc];
-        self.navigationController?.setViewControllers(arrVC, animated: true)
+        let homeVc = storyboard?.instantiateViewController(withIdentifier: HomeViewController.className())
+        let arrVC: [UIViewController] = [homeVc!];
+        navigationController?.setViewControllers(arrVC, animated: true)
     }
     
     
+    //MARK: view controller protocol
+    override var hasNavigationBar: Bool{
+        return false
+    }
     
-    
-    
+    override var preferredStatusBarStyle: UIStatusBarStyle{
+        return UIStatusBarStyle.lightContent
+    }
 }

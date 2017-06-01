@@ -1,0 +1,6 @@
+framework module Pods_CookingManagerReal {
+  umbrella header "Pods-CookingManagerReal-umbrella.h"
+
+  export *
+  module * { export * }
+}

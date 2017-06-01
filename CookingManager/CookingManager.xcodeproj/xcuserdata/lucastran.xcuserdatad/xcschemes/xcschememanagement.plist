@@ -4,15 +4,45 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>CookingManager.xcscheme</key>
+		<key>CookingManagerAppstore.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>CookingManagerDev.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>CookingManagerReal.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>CookingManagerStaging.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>CF65B18F1EDBC60B00CF0038</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CFC5C11D1EDE5D4A00C060BC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CFC5C1401EDE5D6900C060BC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CFC5C1631EDE5D7800C060BC</key>
 		<dict>
 			<key>primary</key>
 			<true/>

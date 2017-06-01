@@ -58,4 +58,55 @@ class DatabaseManager: NSObject {
         return result
     }
     
+    func saveValues(arrayData: [[String:Any]], tableName: String) ->Bool{
+        var result = true
+        self.dbQueue?.inTransaction({ (db: FMDatabase?, rollBack: UnsafeMutablePointer<ObjCBool>?) in
+            do{
+                for obj in arrayData {
+                    let stringColumn = obj.keys.joined(separator: ",")
+                    let stringParameter = obj.keys.map({ (key: String) -> String in
+                        return "?"
+                    }).joined(separator: ",")
+                    
+                    let arrayValues : [Any] = obj.values.map({ (value: Any) -> Any in
+                        return value
+                    })
+                
+                    try db?.executeUpdate("insert into \(tableName) (\(stringColumn)) values (\(stringParameter))", values: arrayValues)
+                }
+            }
+            catch{
+                rollBack?.pointee = true
+                result = false
+                debugPrint("save data fail")
+            }
+        })
+        return result
+    }
+    
+    func saveValue(dictData: [String:Any], tableName:String) ->Bool{
+        var result : Bool = true
+        self.dbQueue?.inTransaction({ (db:FMDatabase?, rollback:UnsafeMutablePointer<ObjCBool>?) in
+            do{
+                let columns = dictData.keys.joined(separator: ",")
+                let valuePrameter = dictData.keys.map({ (key: String) -> String in
+                    return "?"
+                }).joined(separator: ",")
+                
+                let values : [Any] = dictData.values.map({ (value : Any) -> Any in
+                    return value
+                })
+                
+                let query = "insert into \(tableName) (\(columns)) values (\(valuePrameter)"
+                try db?.executeUpdate(query, values: values)
+            }
+            catch{
+                rollback?.pointee = true
+                result = false
+                debugPrint("save data fail : \(error.localizedDescription)")
+            }
+        })
+        return result
+    }
+    
 }

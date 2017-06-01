@@ -1,0 +1,6 @@
+framework module Pods_CookingManagerAppstore {
+  umbrella header "Pods-CookingManagerAppstore-umbrella.h"
+
+  export *
+  module * { export * }
+}

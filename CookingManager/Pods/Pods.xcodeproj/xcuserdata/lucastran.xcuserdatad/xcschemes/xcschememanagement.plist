@@ -29,7 +29,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-CookingManager.xcscheme</key>
+		<key>Pods-CookingManagerAppstore.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-CookingManagerDev.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-CookingManagerReal.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-CookingManagerStaging.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,7 +52,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0A659B91A736FCF6C7DB6D3EC3ADFB24</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>251BAD17812F7EBF6532EACF66F941C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2B030E12566146C39452F056C070D753</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -47,7 +72,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7DCCD0E5BDC149238B6106F851B44B91</key>
+		<key>821AE0F7C5215D31BB0BFEC79D5761A8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -58,6 +83,11 @@
 			<true/>
 		</dict>
 		<key>9502FB01641FBABB78522037E882757B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B115802ECA1FBF0BD5E0816C9EB307A4</key>
 		<dict>
 			<key>primary</key>
 			<true/>

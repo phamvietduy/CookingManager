@@ -13,7 +13,7 @@ import UIKit
 class NavigationControllerBase: UINavigationController,UINavigationControllerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.delegate = self;
     }
     
     override var preferredStatusBarStyle: UIStatusBarStyle{
@@ -21,17 +21,26 @@ class NavigationControllerBase: UINavigationController,UINavigationControllerDel
     }
     
     func navigationController(_ navigationController: UINavigationController, willShow viewController: UIViewController, animated: Bool){
-        if viewController is SFSafariViewController {
-            navigationController.setNavigationBarHidden(true, animated: animated)
-            return
+        
+        if #available(iOS 9.0, *) {
+            if viewController is SFSafariViewController {
+                navigationController.setNavigationBarHidden(true, animated: animated)
+                return
+            }
+        } else {
+            // Fallback on earlier versions
         }
         
         assert((viewController is ViewControllerBaseProtocol), "controller must inherit from ViewControllerBaseProtocol")
         let vc = viewController as! ViewControllerBaseProtocol
-        navigationController .setNavigationBarHidden(vc.hasNavigationBar, animated: animated)
+        navigationController .setNavigationBarHidden(!vc.hasNavigationBar, animated: animated)
         if navigationController.viewControllers.count > 1 {
             
         }
+    }
+    
+    func navigationController(_ navigationController: UINavigationController, didShow viewController: UIViewController, animated: Bool){
+        debugPrint("didShow viewController")
     }
     
     override var shouldAutorotate: Bool{

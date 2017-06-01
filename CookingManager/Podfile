@@ -10,7 +10,23 @@ def shared_pods
   pod 'Kingfisher'
 end
 
-target 'CookingManager' do
+target 'CookingManagerDev' do
   shared_pods
 
 end
+
+target 'CookingManagerStaging' do
+    shared_pods
+    
+end
+
+target 'CookingManagerReal' do
+    shared_pods
+    
+end
+
+target 'CookingManagerAppstore' do
+    shared_pods
+    
+end
+

@@ -1,0 +1,6 @@
+framework module Pods_CookingManagerStaging {
+  umbrella header "Pods-CookingManagerStaging-umbrella.h"
+
+  export *
+  module * { export * }
+}

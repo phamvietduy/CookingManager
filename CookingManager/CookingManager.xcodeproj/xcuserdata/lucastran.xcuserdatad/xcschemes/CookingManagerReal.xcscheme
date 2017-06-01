@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CF65B18F1EDBC60B00CF0038"
-               BuildableName = "CookingManager.app"
-               BlueprintName = "CookingManager"
+               BlueprintIdentifier = "CFC5C1401EDE5D6900C060BC"
+               BuildableName = "CookingManagerReal.app"
+               BlueprintName = "CookingManagerReal"
                ReferencedContainer = "container:CookingManager.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CF65B18F1EDBC60B00CF0038"
-            BuildableName = "CookingManager.app"
-            BlueprintName = "CookingManager"
+            BlueprintIdentifier = "CFC5C1401EDE5D6900C060BC"
+            BuildableName = "CookingManagerReal.app"
+            BlueprintName = "CookingManagerReal"
             ReferencedContainer = "container:CookingManager.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CF65B18F1EDBC60B00CF0038"
-            BuildableName = "CookingManager.app"
-            BlueprintName = "CookingManager"
+            BlueprintIdentifier = "CFC5C1401EDE5D6900C060BC"
+            BuildableName = "CookingManagerReal.app"
+            BlueprintName = "CookingManagerReal"
             ReferencedContainer = "container:CookingManager.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CF65B18F1EDBC60B00CF0038"
-            BuildableName = "CookingManager.app"
-            BlueprintName = "CookingManager"
+            BlueprintIdentifier = "CFC5C1401EDE5D6900C060BC"
+            BuildableName = "CookingManagerReal.app"
+            BlueprintName = "CookingManagerReal"
             ReferencedContainer = "container:CookingManager.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

@@ -26,6 +26,10 @@ class FoodModel: BaseModel {
         cooking_recipe <- map["cooking_recipe"]
     }
     
+    override func tableName() -> String {
+        return Constant.TABLE.Food.rawValue
+    }
+    
     static func createTable() ->Bool{
         let query = "create table \(Constant.TABLE.Food) (name text, from_country text, cooking_recipe text, unique(name))"
         let databaseManager = DatabaseManager.shareInstance
@@ -36,12 +40,27 @@ class FoodModel: BaseModel {
         return true
     }
     
-    func fetchAll() ->[FoodModel]{
+    static func fetchAll() ->[FoodModel]{
         let databaseManager = DatabaseManager.shareInstance
         let arrayResult = databaseManager.fetchAll(tableName: Constant.TABLE.Food.rawValue)
         if arrayResult.count > 0 {
             return Mapper<FoodModel>().mapArray(JSONArray: arrayResult)!
         }
         return [FoodModel]()
+    }
+    
+    func insertValue()->Bool{
+        var arrData = [[String:String]]()
+        var obj1 = [String:String]()
+        obj1["name"] = "Banh xeo"
+        obj1["from_country"] = "Viet Nam"
+        obj1["cooking_recipe"] = "Quen mat"
+        arrData.append(obj1)
+        let databaseManager = DatabaseManager.shareInstance
+        if databaseManager.saveValues(arrayData:arrData , tableName: self.tableName()) == true{
+            debugPrint("save successfully")
+            return true
+        }
+        return false
     }
 }
