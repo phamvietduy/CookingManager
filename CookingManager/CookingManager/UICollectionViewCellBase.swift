@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CollectionViewCellBase: UICollectionViewCell {
+class UICollectionViewCellBase: UICollectionViewCell {
     class func className()-> String{
         return "\(self)"
     }

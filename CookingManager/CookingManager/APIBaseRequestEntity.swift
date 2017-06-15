@@ -8,34 +8,37 @@
 
 import UIKit
 import ObjectMapper
+import AlamofireObjectMapper
 import Alamofire
 
 class ResponseParser<T:APIBaseResponseEntity>{
     var responseObject : T?
-    var error : Error?
     var isSucc : Bool?
-    var isFail : Bool?
+    var code : Int?
+    var message : String?
     
-    init(response : T?, error : Error?, succ : Bool?, fail: Bool?) {
+    init(response : T?, error : Error?) {
         self.responseObject = response
-        self.error = error
-        self.isSucc = succ
-        self.isFail = fail
+        if(response != nil){
+            if(response?.code == nil){
+                self.isSucc = true
+            }
+            else{
+                self.code = response?.code
+                self.message = response?.message
+            }
+        }
+        else{
+            self.code = error?.code
+            self.message = error?.localizedDescription
+        }
     }
 }
 
-class APIBaseRequestEntity: Mappable {
+class APIBaseRequestEntity: BaseModel {
     var isRequesting : Bool = false
     var requestApi : DataRequest?
     var requestDownload : DataRequest?
-    
-    required init?(map: Map) {
-        
-    }
-    
-    func mapping(map: Map) {
-        
-    }
     
     func method()->HTTPMethod{
         return HTTPMethod.get
@@ -61,7 +64,8 @@ class APIBaseRequestEntity: Mappable {
     
     func headerAuthentication()->HTTPHeaders{
         var header : HTTPHeaders = [
-            "Accept":"application/json"
+            "Accept":"application/json",
+            "Content-Type":"application/json"
         ]
         
         if self.isRequestAuthentication() == true{
@@ -69,21 +73,45 @@ class APIBaseRequestEntity: Mappable {
                 header[authorizationHeader.key] = authorizationHeader.value
             }
         }
+        if let appToken = SupportFunctions.userDefault(objectForKey: Constant.UserDefault.appToken) {
+            header["X-Pocketshelter-API-Token"] = appToken as? String
+        }
         return header
     }
     
     func doRequest<T:APIBaseResponseEntity>(complete: @escaping (_ a:ResponseParser<T>)->Void){
         self.isRequesting = true
-        self.requestApi = Alamofire.request(self.url(), method: self.method(), parameters:self.toJSON(), headers:self.header())
-        self.requestApi?.responseJSON(completionHandler: { (response :DataResponse<T>) in
+        self.requestApi = Alamofire.request(self.url(), method: self.method(), parameters:self.toJSON(), encoding:(self.method() == .get ? URLEncoding.default : JSONEncoding.default), headers:self.header())
+        self.requestApi?.responseObject {(response : DataResponse<T>) in
             if response.result.isSuccess == true {
-                complete(ResponseParser<T>(response: response.result.value, error: response.error, succ: response.result.isSuccess, fail: response.result.isFailure))
+                complete(ResponseParser<T>(response: response.result.value, error: response.error))
             }
             else {
-                complete(ResponseParser<T>(response: nil, error: response.error, succ: response.result.isSuccess, fail: response.result.isFailure))
+                complete(ResponseParser<T>(response: nil, error: response.error))
             }
             
             self.isRequesting = false
-        })
+        }
+    }
+    
+    func downloadFile(destinationPath: String, progressBar: UIProgressView? = nil, complete:@escaping ((_ succ: Bool, _ errorCode: String?)->Void)){
+        let destination: DownloadRequest.DownloadFileDestination = {_, _ in
+            let destinationURL = URL(fileURLWithPath: destinationPath)
+            return (destinationURL, [.removePreviousFile, .createIntermediateDirectories])
+        }
+        
+        Alamofire.download(self.url(), to: destination).downloadProgress{ (progress) in
+            progressBar?.progress = Float(progress.fractionCompleted)
+        }
+        .response {response in
+            debugPrint(response)
+            if response.error == nil {
+                //let filePath = response.destinationURL?.path
+                complete(true, nil)
+            }
+            else{
+                complete(false, response.error?.localizedDescription)
+            }
+        }
     }
 }

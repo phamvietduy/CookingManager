@@ -7,15 +7,16 @@
 //
 
 import UIKit
+import ObjectMapper
 
 class APIBaseResponseEntity: BaseModel {
-    dynamic var result_status = 0
-    dynamic var error_code  = 0
+    var message: String?
+    var code: Int?
     
     override func mapping(map: Map) {
         super.mapping(map: map)
-        result_status <- map["result_status"]
-        error_code <- map["error_code"]
+        code <- map["code"]
+        message <- map["message"]
     }
     
 }

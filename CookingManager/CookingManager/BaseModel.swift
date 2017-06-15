@@ -9,7 +9,11 @@
 import Foundation
 import ObjectMapper
 
-class BaseModel: Mappable {
+class BaseModel: NSObject, Mappable {
+    override init() {
+        
+    }
+    
     required init?(map: Map) {
         
     }
@@ -18,7 +22,7 @@ class BaseModel: Mappable {
         
     }
     
-    func tableName() -> String{
+    class func tableName() -> String{
         preconditionFailure("this method must be overridden")
     }
 }

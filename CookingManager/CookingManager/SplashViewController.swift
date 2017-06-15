@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SplashViewController: ViewControllerBase {
+class SplashViewController: UIViewControllerBase {
 
     @IBOutlet weak var imageView: UIImageView!
     
@@ -16,8 +16,12 @@ class SplashViewController: ViewControllerBase {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        SupportFunctions.delay(delay: 4) { 
+            self.animationSplash()
+        }
         
-        self.animationSplash()
+        //create all table before start app
+        self.checkDatabase()
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -40,8 +44,12 @@ class SplashViewController: ViewControllerBase {
     }
     */
 
+    func checkDatabase(){
+        GeoPointModel.createTable()
+    }
+    
     func animationSplash() {
-        UIView.animate(withDuration: 2.0, animations: { 
+        UIView.animate(withDuration: 1.0, animations: {
             self.imageView.alpha = 0.0
         }) { (complete) in
             self.goToHomeScreen()
@@ -63,4 +71,9 @@ class SplashViewController: ViewControllerBase {
     override var preferredStatusBarStyle: UIStatusBarStyle{
         return UIStatusBarStyle.lightContent
     }
+    
+    override var prefersStatusBarHidden: Bool{
+        return true
+    }
+    
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="UcA-sH-FhQ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ae3-sv-Kgx">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -12,7 +12,7 @@
         <!--Splash View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="SplashViewController" id="BYZ-38-t0r" customClass="SplashViewController" customModule="CookingManager" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SplashViewController" id="BYZ-38-t0r" customClass="SplashViewController" customModule="CookingManagerAppstore" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -22,30 +22,61 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="XCr-iL-TdO">
-                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="XCr-iL-TdO" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="4HZ-W7-ZC2"/>
                             <constraint firstItem="XCr-iL-TdO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="7iL-xd-tcP"/>
-                            <constraint firstItem="XCr-iL-TdO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="KFg-pr-G2Q"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XCr-iL-TdO" secondAttribute="bottom" id="YXa-Vd-Qwf"/>
                             <constraint firstAttribute="trailing" secondItem="XCr-iL-TdO" secondAttribute="trailing" id="dZ6-yl-fSw"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ser-B1-vmN"/>
+                    <nil key="simulatedStatusBarMetrics"/>
                     <connections>
                         <outlet property="imageView" destination="XCr-iL-TdO" id="3Fr-Wj-gaa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1412" y="776.76161919040487"/>
+            <point key="canvasLocation" x="2409.375" y="776.4084507042254"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="das-mI-IYz">
+            <objects>
+                <viewController storyboardIdentifier="LoginViewController" id="WG4-q3-baZ" customClass="LoginViewController" customModule="CookingManagerAppstore" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wi0-0K-Vuu"/>
+                        <viewControllerLayoutGuide type="bottom" id="h0Z-OZ-fwp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rPK-mk-Ch6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="yIn-gA-6XT">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="h0Z-OZ-fwp" firstAttribute="top" secondItem="yIn-gA-6XT" secondAttribute="bottom" id="0rc-ZO-Jlv"/>
+                            <constraint firstItem="yIn-gA-6XT" firstAttribute="top" secondItem="rPK-mk-Ch6" secondAttribute="top" id="1KN-ts-dmk"/>
+                            <constraint firstItem="yIn-gA-6XT" firstAttribute="leading" secondItem="rPK-mk-Ch6" secondAttribute="leading" id="4KC-VW-RCz"/>
+                            <constraint firstAttribute="trailing" secondItem="yIn-gA-6XT" secondAttribute="trailing" id="QRJ-np-e3M"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cfk-5l-I6h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2240.625" y="-249.29577464788733"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="1Lx-mH-Zpd">
             <objects>
-                <viewController storyboardIdentifier="HomeViewController" id="ppS-cm-6rf" customClass="HomeViewController" customModule="CookingManager" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" id="ppS-cm-6rf" customClass="HomeViewController" customModule="CookingManagerAppstore" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7Cp-vS-gI2"/>
                         <viewControllerLayoutGuide type="bottom" id="y6Y-Hg-0CG"/>
@@ -74,7 +105,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zza-c3-45b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2240.625" y="776.4084507042254"/>
+            <point key="canvasLocation" x="3238.125" y="776.4084507042254"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="lFn-3L-Z5y">
@@ -92,25 +123,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="StS-sC-2K7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3010" y="777"/>
+            <point key="canvasLocation" x="4006.875" y="776.4084507042254"/>
         </scene>
         <!--Navigation Controller Base-->
-        <scene sceneID="BAl-LU-Nms">
+        <scene sceneID="vjU-1w-QRT">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UcA-sH-FhQ" customClass="NavigationControllerBase" customModule="CookingManager" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ae3-sv-Kgx" customClass="UINavigationControllerBase" customModule="CookingManagerAppstore" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fSe-o3-jds">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9RW-9W-70K">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Fhr-PR-VFq"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="iCr-VN-f7r"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2wz-eB-JLn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sQn-2v-t0A" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="605.60000000000002" y="776.76161919040487"/>
+            <point key="canvasLocation" x="1411.875" y="776.4084507042254"/>
         </scene>
     </scenes>
     <resources>

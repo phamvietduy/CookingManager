@@ -10,9 +10,72 @@
 		103E891F11C5862B7DAA96C1 /* Pods_CookingManagerStaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3538B307EB7315943F880BA /* Pods_CookingManagerStaging.framework */; };
 		2AE491B4AA5F19A1740B469F /* Pods_CookingManagerAppstore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA4C8E6E297E8098014030E /* Pods_CookingManagerAppstore.framework */; };
 		57810D314DDD6932EBB24AD7 /* Pods_CookingManagerReal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5B13C67AFF2D3612250592 /* Pods_CookingManagerReal.framework */; };
-		83B1BFA7C6B41F3B909DF287 /* Pods_CookingManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146FB2398A79F009AAD5501A /* Pods_CookingManager.framework */; };
 		8990757716351892AF63EA9B /* Pods_CookingManagerDev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F857C3C9E3A8E26413FF4D06 /* Pods_CookingManagerDev.framework */; };
-		CF0EE4531EDD549E005C42CE /* TableViewCellBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0EE4521EDD549E005C42CE /* TableViewCellBase.swift */; };
+		CF0EE4531EDD549E005C42CE /* UITableViewCellBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0EE4521EDD549E005C42CE /* UITableViewCellBase.swift */; };
+		CF0F44561EE7A6DA0093FDAC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F44551EE7A6DA0093FDAC /* LoginViewController.swift */; };
+		CF0F44571EE7A6DA0093FDAC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F44551EE7A6DA0093FDAC /* LoginViewController.swift */; };
+		CF0F44581EE7A6DA0093FDAC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F44551EE7A6DA0093FDAC /* LoginViewController.swift */; };
+		CF0F44591EE7A6DA0093FDAC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F44551EE7A6DA0093FDAC /* LoginViewController.swift */; };
+		CF0F44611EE7A7B40093FDAC /* TextFieldInputCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F445F1EE7A7B40093FDAC /* TextFieldInputCellTableViewCell.swift */; };
+		CF0F44621EE7A7B40093FDAC /* TextFieldInputCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F445F1EE7A7B40093FDAC /* TextFieldInputCellTableViewCell.swift */; };
+		CF0F44631EE7A7B40093FDAC /* TextFieldInputCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F445F1EE7A7B40093FDAC /* TextFieldInputCellTableViewCell.swift */; };
+		CF0F44641EE7A7B40093FDAC /* TextFieldInputCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F445F1EE7A7B40093FDAC /* TextFieldInputCellTableViewCell.swift */; };
+		CF0F44651EE7A7B40093FDAC /* TextFieldInputCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF0F44601EE7A7B40093FDAC /* TextFieldInputCellTableViewCell.xib */; };
+		CF0F44661EE7A7B40093FDAC /* TextFieldInputCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF0F44601EE7A7B40093FDAC /* TextFieldInputCellTableViewCell.xib */; };
+		CF0F44671EE7A7B40093FDAC /* TextFieldInputCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF0F44601EE7A7B40093FDAC /* TextFieldInputCellTableViewCell.xib */; };
+		CF0F44681EE7A7B40093FDAC /* TextFieldInputCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF0F44601EE7A7B40093FDAC /* TextFieldInputCellTableViewCell.xib */; };
+		CF0F446A1EE7A84A0093FDAC /* UILabelBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F44691EE7A84A0093FDAC /* UILabelBase.swift */; };
+		CF0F446B1EE7A84A0093FDAC /* UILabelBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F44691EE7A84A0093FDAC /* UILabelBase.swift */; };
+		CF0F446C1EE7A84A0093FDAC /* UILabelBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F44691EE7A84A0093FDAC /* UILabelBase.swift */; };
+		CF0F446D1EE7A84A0093FDAC /* UILabelBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F44691EE7A84A0093FDAC /* UILabelBase.swift */; };
+		CF0F446F1EE7A8830093FDAC /* UIFlexibleFontSizeLable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F446E1EE7A8830093FDAC /* UIFlexibleFontSizeLable.swift */; };
+		CF0F44701EE7A8830093FDAC /* UIFlexibleFontSizeLable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F446E1EE7A8830093FDAC /* UIFlexibleFontSizeLable.swift */; };
+		CF0F44711EE7A8830093FDAC /* UIFlexibleFontSizeLable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F446E1EE7A8830093FDAC /* UIFlexibleFontSizeLable.swift */; };
+		CF0F44721EE7A8830093FDAC /* UIFlexibleFontSizeLable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F446E1EE7A8830093FDAC /* UIFlexibleFontSizeLable.swift */; };
+		CF0F44741EE7B0FE0093FDAC /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F44731EE7B0FE0093FDAC /* ColorExtension.swift */; };
+		CF0F44751EE7B0FE0093FDAC /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F44731EE7B0FE0093FDAC /* ColorExtension.swift */; };
+		CF0F44761EE7B0FE0093FDAC /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F44731EE7B0FE0093FDAC /* ColorExtension.swift */; };
+		CF0F44771EE7B0FE0093FDAC /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F44731EE7B0FE0093FDAC /* ColorExtension.swift */; };
+		CF0F447A1EE7C8740093FDAC /* APIGeoPointRequestEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F44791EE7C8740093FDAC /* APIGeoPointRequestEntity.swift */; };
+		CF0F447B1EE7C8740093FDAC /* APIGeoPointRequestEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F44791EE7C8740093FDAC /* APIGeoPointRequestEntity.swift */; };
+		CF0F447C1EE7C8740093FDAC /* APIGeoPointRequestEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F44791EE7C8740093FDAC /* APIGeoPointRequestEntity.swift */; };
+		CF0F447D1EE7C8740093FDAC /* APIGeoPointRequestEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F44791EE7C8740093FDAC /* APIGeoPointRequestEntity.swift */; };
+		CF0F447F1EE7CA0B0093FDAC /* APICredentialRequestEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F447E1EE7CA0B0093FDAC /* APICredentialRequestEntity.swift */; };
+		CF0F44801EE7CA0B0093FDAC /* APICredentialRequestEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F447E1EE7CA0B0093FDAC /* APICredentialRequestEntity.swift */; };
+		CF0F44811EE7CA0B0093FDAC /* APICredentialRequestEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F447E1EE7CA0B0093FDAC /* APICredentialRequestEntity.swift */; };
+		CF0F44821EE7CA0B0093FDAC /* APICredentialRequestEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F447E1EE7CA0B0093FDAC /* APICredentialRequestEntity.swift */; };
+		CF0F44851EE7CAFC0093FDAC /* APICredentialResponseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F44841EE7CAFC0093FDAC /* APICredentialResponseEntity.swift */; };
+		CF0F44861EE7CAFC0093FDAC /* APICredentialResponseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F44841EE7CAFC0093FDAC /* APICredentialResponseEntity.swift */; };
+		CF0F44871EE7CAFC0093FDAC /* APICredentialResponseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F44841EE7CAFC0093FDAC /* APICredentialResponseEntity.swift */; };
+		CF0F44881EE7CAFC0093FDAC /* APICredentialResponseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F44841EE7CAFC0093FDAC /* APICredentialResponseEntity.swift */; };
+		CF0F448A1EE7F50D0093FDAC /* APICheckVersionRequestEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F44891EE7F50D0093FDAC /* APICheckVersionRequestEntity.swift */; };
+		CF0F448B1EE7F50D0093FDAC /* APICheckVersionRequestEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F44891EE7F50D0093FDAC /* APICheckVersionRequestEntity.swift */; };
+		CF0F448C1EE7F50D0093FDAC /* APICheckVersionRequestEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F44891EE7F50D0093FDAC /* APICheckVersionRequestEntity.swift */; };
+		CF0F448D1EE7F50D0093FDAC /* APICheckVersionRequestEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F44891EE7F50D0093FDAC /* APICheckVersionRequestEntity.swift */; };
+		CF0F448F1EE7F5220093FDAC /* APICheckVersionResponseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F448E1EE7F5220093FDAC /* APICheckVersionResponseEntity.swift */; };
+		CF0F44901EE7F5220093FDAC /* APICheckVersionResponseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F448E1EE7F5220093FDAC /* APICheckVersionResponseEntity.swift */; };
+		CF0F44911EE7F5220093FDAC /* APICheckVersionResponseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F448E1EE7F5220093FDAC /* APICheckVersionResponseEntity.swift */; };
+		CF0F44921EE7F5220093FDAC /* APICheckVersionResponseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F448E1EE7F5220093FDAC /* APICheckVersionResponseEntity.swift */; };
+		CF0F44941EE7F5600093FDAC /* VersionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F44931EE7F5600093FDAC /* VersionModel.swift */; };
+		CF0F44951EE7F5600093FDAC /* VersionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F44931EE7F5600093FDAC /* VersionModel.swift */; };
+		CF0F44961EE7F5600093FDAC /* VersionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F44931EE7F5600093FDAC /* VersionModel.swift */; };
+		CF0F44971EE7F5600093FDAC /* VersionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F44931EE7F5600093FDAC /* VersionModel.swift */; };
+		CF0F44991EE7F9D50093FDAC /* GeoPointModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F44981EE7F9D50093FDAC /* GeoPointModel.swift */; };
+		CF0F449A1EE7F9D50093FDAC /* GeoPointModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F44981EE7F9D50093FDAC /* GeoPointModel.swift */; };
+		CF0F449B1EE7F9D50093FDAC /* GeoPointModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F44981EE7F9D50093FDAC /* GeoPointModel.swift */; };
+		CF0F449C1EE7F9D50093FDAC /* GeoPointModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F44981EE7F9D50093FDAC /* GeoPointModel.swift */; };
+		CF0F449E1EE7FAEA0093FDAC /* APIGeoPointResponseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F449D1EE7FAEA0093FDAC /* APIGeoPointResponseEntity.swift */; };
+		CF0F449F1EE7FAEA0093FDAC /* APIGeoPointResponseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F449D1EE7FAEA0093FDAC /* APIGeoPointResponseEntity.swift */; };
+		CF0F44A01EE7FAEA0093FDAC /* APIGeoPointResponseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F449D1EE7FAEA0093FDAC /* APIGeoPointResponseEntity.swift */; };
+		CF0F44A11EE7FAEA0093FDAC /* APIGeoPointResponseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F449D1EE7FAEA0093FDAC /* APIGeoPointResponseEntity.swift */; };
+		CF0F44A31EE7FC690093FDAC /* SupportFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F44A21EE7FC690093FDAC /* SupportFunctions.swift */; };
+		CF0F44A41EE7FC690093FDAC /* SupportFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F44A21EE7FC690093FDAC /* SupportFunctions.swift */; };
+		CF0F44A51EE7FC690093FDAC /* SupportFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F44A21EE7FC690093FDAC /* SupportFunctions.swift */; };
+		CF0F44A61EE7FC690093FDAC /* SupportFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F44A21EE7FC690093FDAC /* SupportFunctions.swift */; };
+		CF56B6931EE1642F00B583D5 /* CheckInputData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF56B6921EE1642E00B583D5 /* CheckInputData.swift */; };
+		CF56B6941EE1642F00B583D5 /* CheckInputData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF56B6921EE1642E00B583D5 /* CheckInputData.swift */; };
+		CF56B6951EE1642F00B583D5 /* CheckInputData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF56B6921EE1642E00B583D5 /* CheckInputData.swift */; };
+		CF56B6961EE1642F00B583D5 /* CheckInputData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF56B6921EE1642E00B583D5 /* CheckInputData.swift */; };
 		CF65B1941EDBC60B00CF0038 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1931EDBC60B00CF0038 /* AppDelegate.swift */; };
 		CF65B1961EDBC60B00CF0038 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1951EDBC60B00CF0038 /* HomeViewController.swift */; };
 		CF65B1991EDBC60C00CF0038 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF65B1971EDBC60C00CF0038 /* Main.storyboard */; };
@@ -25,74 +88,67 @@
 		CF65B1B61EDBEDBE00CF0038 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1B51EDBEDBE00CF0038 /* BaseModel.swift */; };
 		CF65B1B81EDBEFC400CF0038 /* FoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1B71EDBEFC400CF0038 /* FoodModel.swift */; };
 		CF65B1BA1EDC15D400CF0038 /* CookingManager.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = CF65B1B91EDC15D400CF0038 /* CookingManager.sqlite */; };
-		CF65B1BD1EDC172D00CF0038 /* NavigationControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1BC1EDC172D00CF0038 /* NavigationControllerBase.swift */; };
-		CF65B1BF1EDC19E100CF0038 /* ViewControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1BE1EDC19E100CF0038 /* ViewControllerBase.swift */; };
-		CF65B1C11EDC21B700CF0038 /* TableViewControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1C01EDC21B700CF0038 /* TableViewControllerBase.swift */; };
+		CF65B1BD1EDC172D00CF0038 /* UINavigationControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1BC1EDC172D00CF0038 /* UINavigationControllerBase.swift */; };
+		CF65B1BF1EDC19E100CF0038 /* UIViewControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1BE1EDC19E100CF0038 /* UIViewControllerBase.swift */; };
+		CF65B1C11EDC21B700CF0038 /* UITableViewControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1C01EDC21B700CF0038 /* UITableViewControllerBase.swift */; };
 		CF65B1C71EDC23DD00CF0038 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1C61EDC23DD00CF0038 /* SplashViewController.swift */; };
-		CFC5C11C1EDE5BFE00C060BC /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC5C11B1EDE5BFE00C060BC /* APIManager.swift */; };
-		CFC5C1201EDE5D4A00C060BC /* CollectionViewCellBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCC3BC11EDD4B2E005C5C19 /* CollectionViewCellBase.swift */; };
-		CFC5C1211EDE5D4A00C060BC /* NavigationControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1BC1EDC172D00CF0038 /* NavigationControllerBase.swift */; };
+		CFC5C1201EDE5D4A00C060BC /* UICollectionViewCellBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCC3BC11EDD4B2E005C5C19 /* UICollectionViewCellBase.swift */; };
+		CFC5C1211EDE5D4A00C060BC /* UINavigationControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1BC1EDC172D00CF0038 /* UINavigationControllerBase.swift */; };
 		CFC5C1221EDE5D4A00C060BC /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1A71EDBE34E00CF0038 /* DatabaseManager.swift */; };
 		CFC5C1231EDE5D4A00C060BC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1951EDBC60B00CF0038 /* HomeViewController.swift */; };
 		CFC5C1241EDE5D4A00C060BC /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1B51EDBEDBE00CF0038 /* BaseModel.swift */; };
 		CFC5C1251EDE5D4A00C060BC /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1AF1EDBE85600CF0038 /* StringExtension.swift */; };
 		CFC5C1261EDE5D4A00C060BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1931EDBC60B00CF0038 /* AppDelegate.swift */; };
-		CFC5C1271EDE5D4A00C060BC /* TableViewControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1C01EDC21B700CF0038 /* TableViewControllerBase.swift */; };
-		CFC5C1281EDE5D4A00C060BC /* ViewControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1BE1EDC19E100CF0038 /* ViewControllerBase.swift */; };
+		CFC5C1271EDE5D4A00C060BC /* UITableViewControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1C01EDC21B700CF0038 /* UITableViewControllerBase.swift */; };
+		CFC5C1281EDE5D4A00C060BC /* UIViewControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1BE1EDC19E100CF0038 /* UIViewControllerBase.swift */; };
 		CFC5C1291EDE5D4A00C060BC /* FoodViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCC3BBD1EDD4B16005C5C19 /* FoodViewCell.swift */; };
 		CFC5C12A1EDE5D4A00C060BC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1A51EDBD1E300CF0038 /* Constant.swift */; };
 		CFC5C12B1EDE5D4A00C060BC /* FoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1B71EDBEFC400CF0038 /* FoodModel.swift */; };
-		CFC5C12C1EDE5D4A00C060BC /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC5C11B1EDE5BFE00C060BC /* APIManager.swift */; };
-		CFC5C12D1EDE5D4A00C060BC /* TableViewCellBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0EE4521EDD549E005C42CE /* TableViewCellBase.swift */; };
+		CFC5C12D1EDE5D4A00C060BC /* UITableViewCellBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0EE4521EDD549E005C42CE /* UITableViewCellBase.swift */; };
 		CFC5C12E1EDE5D4A00C060BC /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1C61EDC23DD00CF0038 /* SplashViewController.swift */; };
 		CFC5C1301EDE5D4A00C060BC /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCC3BBA1EDD3EC0005C5C19 /* SafariServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		CFC5C1311EDE5D4A00C060BC /* Pods_CookingManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146FB2398A79F009AAD5501A /* Pods_CookingManager.framework */; };
 		CFC5C1331EDE5D4A00C060BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF65B19C1EDBC60C00CF0038 /* LaunchScreen.storyboard */; };
 		CFC5C1341EDE5D4A00C060BC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF65B1AE1EDBE7C500CF0038 /* Localizable.strings */; };
 		CFC5C1351EDE5D4A00C060BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF65B19A1EDBC60C00CF0038 /* Assets.xcassets */; };
 		CFC5C1361EDE5D4A00C060BC /* CookingManager.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = CF65B1B91EDC15D400CF0038 /* CookingManager.sqlite */; };
 		CFC5C1371EDE5D4A00C060BC /* FoodViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFCC3BBE1EDD4B16005C5C19 /* FoodViewCell.xib */; };
 		CFC5C1381EDE5D4A00C060BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF65B1971EDBC60C00CF0038 /* Main.storyboard */; };
-		CFC5C1431EDE5D6900C060BC /* CollectionViewCellBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCC3BC11EDD4B2E005C5C19 /* CollectionViewCellBase.swift */; };
-		CFC5C1441EDE5D6900C060BC /* NavigationControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1BC1EDC172D00CF0038 /* NavigationControllerBase.swift */; };
+		CFC5C1431EDE5D6900C060BC /* UICollectionViewCellBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCC3BC11EDD4B2E005C5C19 /* UICollectionViewCellBase.swift */; };
+		CFC5C1441EDE5D6900C060BC /* UINavigationControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1BC1EDC172D00CF0038 /* UINavigationControllerBase.swift */; };
 		CFC5C1451EDE5D6900C060BC /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1A71EDBE34E00CF0038 /* DatabaseManager.swift */; };
 		CFC5C1461EDE5D6900C060BC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1951EDBC60B00CF0038 /* HomeViewController.swift */; };
 		CFC5C1471EDE5D6900C060BC /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1B51EDBEDBE00CF0038 /* BaseModel.swift */; };
 		CFC5C1481EDE5D6900C060BC /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1AF1EDBE85600CF0038 /* StringExtension.swift */; };
 		CFC5C1491EDE5D6900C060BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1931EDBC60B00CF0038 /* AppDelegate.swift */; };
-		CFC5C14A1EDE5D6900C060BC /* TableViewControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1C01EDC21B700CF0038 /* TableViewControllerBase.swift */; };
-		CFC5C14B1EDE5D6900C060BC /* ViewControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1BE1EDC19E100CF0038 /* ViewControllerBase.swift */; };
+		CFC5C14A1EDE5D6900C060BC /* UITableViewControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1C01EDC21B700CF0038 /* UITableViewControllerBase.swift */; };
+		CFC5C14B1EDE5D6900C060BC /* UIViewControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1BE1EDC19E100CF0038 /* UIViewControllerBase.swift */; };
 		CFC5C14C1EDE5D6900C060BC /* FoodViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCC3BBD1EDD4B16005C5C19 /* FoodViewCell.swift */; };
 		CFC5C14D1EDE5D6900C060BC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1A51EDBD1E300CF0038 /* Constant.swift */; };
 		CFC5C14E1EDE5D6900C060BC /* FoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1B71EDBEFC400CF0038 /* FoodModel.swift */; };
-		CFC5C14F1EDE5D6900C060BC /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC5C11B1EDE5BFE00C060BC /* APIManager.swift */; };
-		CFC5C1501EDE5D6900C060BC /* TableViewCellBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0EE4521EDD549E005C42CE /* TableViewCellBase.swift */; };
+		CFC5C1501EDE5D6900C060BC /* UITableViewCellBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0EE4521EDD549E005C42CE /* UITableViewCellBase.swift */; };
 		CFC5C1511EDE5D6900C060BC /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1C61EDC23DD00CF0038 /* SplashViewController.swift */; };
 		CFC5C1531EDE5D6900C060BC /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCC3BBA1EDD3EC0005C5C19 /* SafariServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		CFC5C1541EDE5D6900C060BC /* Pods_CookingManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146FB2398A79F009AAD5501A /* Pods_CookingManager.framework */; };
 		CFC5C1561EDE5D6900C060BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF65B19C1EDBC60C00CF0038 /* LaunchScreen.storyboard */; };
 		CFC5C1571EDE5D6900C060BC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF65B1AE1EDBE7C500CF0038 /* Localizable.strings */; };
 		CFC5C1581EDE5D6900C060BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF65B19A1EDBC60C00CF0038 /* Assets.xcassets */; };
 		CFC5C1591EDE5D6900C060BC /* CookingManager.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = CF65B1B91EDC15D400CF0038 /* CookingManager.sqlite */; };
 		CFC5C15A1EDE5D6900C060BC /* FoodViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFCC3BBE1EDD4B16005C5C19 /* FoodViewCell.xib */; };
 		CFC5C15B1EDE5D6900C060BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF65B1971EDBC60C00CF0038 /* Main.storyboard */; };
-		CFC5C1661EDE5D7800C060BC /* CollectionViewCellBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCC3BC11EDD4B2E005C5C19 /* CollectionViewCellBase.swift */; };
-		CFC5C1671EDE5D7800C060BC /* NavigationControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1BC1EDC172D00CF0038 /* NavigationControllerBase.swift */; };
+		CFC5C1661EDE5D7800C060BC /* UICollectionViewCellBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCC3BC11EDD4B2E005C5C19 /* UICollectionViewCellBase.swift */; };
+		CFC5C1671EDE5D7800C060BC /* UINavigationControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1BC1EDC172D00CF0038 /* UINavigationControllerBase.swift */; };
 		CFC5C1681EDE5D7800C060BC /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1A71EDBE34E00CF0038 /* DatabaseManager.swift */; };
 		CFC5C1691EDE5D7800C060BC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1951EDBC60B00CF0038 /* HomeViewController.swift */; };
 		CFC5C16A1EDE5D7800C060BC /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1B51EDBEDBE00CF0038 /* BaseModel.swift */; };
 		CFC5C16B1EDE5D7800C060BC /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1AF1EDBE85600CF0038 /* StringExtension.swift */; };
 		CFC5C16C1EDE5D7800C060BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1931EDBC60B00CF0038 /* AppDelegate.swift */; };
-		CFC5C16D1EDE5D7800C060BC /* TableViewControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1C01EDC21B700CF0038 /* TableViewControllerBase.swift */; };
-		CFC5C16E1EDE5D7800C060BC /* ViewControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1BE1EDC19E100CF0038 /* ViewControllerBase.swift */; };
+		CFC5C16D1EDE5D7800C060BC /* UITableViewControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1C01EDC21B700CF0038 /* UITableViewControllerBase.swift */; };
+		CFC5C16E1EDE5D7800C060BC /* UIViewControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1BE1EDC19E100CF0038 /* UIViewControllerBase.swift */; };
 		CFC5C16F1EDE5D7800C060BC /* FoodViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCC3BBD1EDD4B16005C5C19 /* FoodViewCell.swift */; };
 		CFC5C1701EDE5D7800C060BC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1A51EDBD1E300CF0038 /* Constant.swift */; };
 		CFC5C1711EDE5D7800C060BC /* FoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1B71EDBEFC400CF0038 /* FoodModel.swift */; };
-		CFC5C1721EDE5D7800C060BC /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC5C11B1EDE5BFE00C060BC /* APIManager.swift */; };
-		CFC5C1731EDE5D7800C060BC /* TableViewCellBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0EE4521EDD549E005C42CE /* TableViewCellBase.swift */; };
+		CFC5C1731EDE5D7800C060BC /* UITableViewCellBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0EE4521EDD549E005C42CE /* UITableViewCellBase.swift */; };
 		CFC5C1741EDE5D7800C060BC /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65B1C61EDC23DD00CF0038 /* SplashViewController.swift */; };
 		CFC5C1761EDE5D7800C060BC /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCC3BBA1EDD3EC0005C5C19 /* SafariServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		CFC5C1771EDE5D7800C060BC /* Pods_CookingManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146FB2398A79F009AAD5501A /* Pods_CookingManager.framework */; };
 		CFC5C1791EDE5D7800C060BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF65B19C1EDBC60C00CF0038 /* LaunchScreen.storyboard */; };
 		CFC5C17A1EDE5D7800C060BC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF65B1AE1EDBE7C500CF0038 /* Localizable.strings */; };
 		CFC5C17B1EDE5D7800C060BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF65B19A1EDBC60C00CF0038 /* Assets.xcassets */; };
@@ -110,7 +166,11 @@
 		CFCC3BBB1EDD3EC0005C5C19 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCC3BBA1EDD3EC0005C5C19 /* SafariServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		CFCC3BBF1EDD4B16005C5C19 /* FoodViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCC3BBD1EDD4B16005C5C19 /* FoodViewCell.swift */; };
 		CFCC3BC01EDD4B16005C5C19 /* FoodViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFCC3BBE1EDD4B16005C5C19 /* FoodViewCell.xib */; };
-		CFCC3BC21EDD4B2E005C5C19 /* CollectionViewCellBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCC3BC11EDD4B2E005C5C19 /* CollectionViewCellBase.swift */; };
+		CFCC3BC21EDD4B2E005C5C19 /* UICollectionViewCellBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCC3BC11EDD4B2E005C5C19 /* UICollectionViewCellBase.swift */; };
+		CFE5237E1EF128B800083A3C /* ErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE5237D1EF128B800083A3C /* ErrorExtension.swift */; };
+		CFE5237F1EF128B800083A3C /* ErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE5237D1EF128B800083A3C /* ErrorExtension.swift */; };
+		CFE523801EF128B800083A3C /* ErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE5237D1EF128B800083A3C /* ErrorExtension.swift */; };
+		CFE523811EF128B800083A3C /* ErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE5237D1EF128B800083A3C /* ErrorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -123,7 +183,23 @@
 		46A0B961F076F8B0B7C2B975 /* Pods-CookingManagerAppstore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CookingManagerAppstore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CookingManagerAppstore/Pods-CookingManagerAppstore.debug.xcconfig"; sourceTree = "<group>"; };
 		A878B72FF847C647E133D430 /* Pods-CookingManagerReal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CookingManagerReal.release.xcconfig"; path = "Pods/Target Support Files/Pods-CookingManagerReal/Pods-CookingManagerReal.release.xcconfig"; sourceTree = "<group>"; };
 		B3538B307EB7315943F880BA /* Pods_CookingManagerStaging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CookingManagerStaging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF0EE4521EDD549E005C42CE /* TableViewCellBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellBase.swift; sourceTree = "<group>"; };
+		CF0EE4521EDD549E005C42CE /* UITableViewCellBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewCellBase.swift; sourceTree = "<group>"; };
+		CF0F44551EE7A6DA0093FDAC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CF0F445F1EE7A7B40093FDAC /* TextFieldInputCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldInputCellTableViewCell.swift; sourceTree = "<group>"; };
+		CF0F44601EE7A7B40093FDAC /* TextFieldInputCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextFieldInputCellTableViewCell.xib; sourceTree = "<group>"; };
+		CF0F44691EE7A84A0093FDAC /* UILabelBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelBase.swift; sourceTree = "<group>"; };
+		CF0F446E1EE7A8830093FDAC /* UIFlexibleFontSizeLable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFlexibleFontSizeLable.swift; sourceTree = "<group>"; };
+		CF0F44731EE7B0FE0093FDAC /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		CF0F44791EE7C8740093FDAC /* APIGeoPointRequestEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIGeoPointRequestEntity.swift; sourceTree = "<group>"; };
+		CF0F447E1EE7CA0B0093FDAC /* APICredentialRequestEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICredentialRequestEntity.swift; sourceTree = "<group>"; };
+		CF0F44841EE7CAFC0093FDAC /* APICredentialResponseEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICredentialResponseEntity.swift; sourceTree = "<group>"; };
+		CF0F44891EE7F50D0093FDAC /* APICheckVersionRequestEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICheckVersionRequestEntity.swift; sourceTree = "<group>"; };
+		CF0F448E1EE7F5220093FDAC /* APICheckVersionResponseEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICheckVersionResponseEntity.swift; sourceTree = "<group>"; };
+		CF0F44931EE7F5600093FDAC /* VersionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersionModel.swift; sourceTree = "<group>"; };
+		CF0F44981EE7F9D50093FDAC /* GeoPointModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoPointModel.swift; sourceTree = "<group>"; };
+		CF0F449D1EE7FAEA0093FDAC /* APIGeoPointResponseEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIGeoPointResponseEntity.swift; sourceTree = "<group>"; };
+		CF0F44A21EE7FC690093FDAC /* SupportFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportFunctions.swift; sourceTree = "<group>"; };
+		CF56B6921EE1642E00B583D5 /* CheckInputData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckInputData.swift; sourceTree = "<group>"; };
 		CF65B1901EDBC60B00CF0038 /* CookingManagerDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookingManagerDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF65B1931EDBC60B00CF0038 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF65B1951EDBC60B00CF0038 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -139,11 +215,10 @@
 		CF65B1B51EDBEDBE00CF0038 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		CF65B1B71EDBEFC400CF0038 /* FoodModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodModel.swift; sourceTree = "<group>"; };
 		CF65B1B91EDC15D400CF0038 /* CookingManager.sqlite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CookingManager.sqlite; sourceTree = "<group>"; };
-		CF65B1BC1EDC172D00CF0038 /* NavigationControllerBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllerBase.swift; sourceTree = "<group>"; };
-		CF65B1BE1EDC19E100CF0038 /* ViewControllerBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerBase.swift; sourceTree = "<group>"; };
-		CF65B1C01EDC21B700CF0038 /* TableViewControllerBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerBase.swift; sourceTree = "<group>"; };
+		CF65B1BC1EDC172D00CF0038 /* UINavigationControllerBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationControllerBase.swift; sourceTree = "<group>"; };
+		CF65B1BE1EDC19E100CF0038 /* UIViewControllerBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerBase.swift; sourceTree = "<group>"; };
+		CF65B1C01EDC21B700CF0038 /* UITableViewControllerBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewControllerBase.swift; sourceTree = "<group>"; };
 		CF65B1C61EDC23DD00CF0038 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
-		CFC5C11B1EDE5BFE00C060BC /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		CFC5C13E1EDE5D4A00C060BC /* CookingManagerStaging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookingManagerStaging.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFC5C13F1EDE5D4A00C060BC /* CookingManager copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CookingManager copy-Info.plist"; path = "/Users/lucastran/Documents/MyWork/Practice/IOS/CookingManager/CookingManager/CookingManager copy-Info.plist"; sourceTree = "<absolute>"; };
 		CFC5C1611EDE5D6900C060BC /* CookingManagerReal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookingManagerReal.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -155,7 +230,8 @@
 		CFCC3BBA1EDD3EC0005C5C19 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		CFCC3BBD1EDD4B16005C5C19 /* FoodViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodViewCell.swift; sourceTree = "<group>"; };
 		CFCC3BBE1EDD4B16005C5C19 /* FoodViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodViewCell.xib; sourceTree = "<group>"; };
-		CFCC3BC11EDD4B2E005C5C19 /* CollectionViewCellBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCellBase.swift; sourceTree = "<group>"; };
+		CFCC3BC11EDD4B2E005C5C19 /* UICollectionViewCellBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewCellBase.swift; sourceTree = "<group>"; };
+		CFE5237D1EF128B800083A3C /* ErrorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorExtension.swift; sourceTree = "<group>"; };
 		D6F414FB3EFC1DD27D4F1FE5 /* Pods-CookingManagerAppstore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CookingManagerAppstore.release.xcconfig"; path = "Pods/Target Support Files/Pods-CookingManagerAppstore/Pods-CookingManagerAppstore.release.xcconfig"; sourceTree = "<group>"; };
 		E805D1DD2025072F3F4B6C82 /* Pods-CookingManagerStaging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CookingManagerStaging.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CookingManagerStaging/Pods-CookingManagerStaging.debug.xcconfig"; sourceTree = "<group>"; };
 		EA05C3CF7E07B63F63B29166 /* Pods-CookingManagerReal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CookingManagerReal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CookingManagerReal/Pods-CookingManagerReal.debug.xcconfig"; sourceTree = "<group>"; };
@@ -168,7 +244,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFCC3BBB1EDD3EC0005C5C19 /* SafariServices.framework in Frameworks */,
-				83B1BFA7C6B41F3B909DF287 /* Pods_CookingManager.framework in Frameworks */,
 				8990757716351892AF63EA9B /* Pods_CookingManagerDev.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,7 +253,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFC5C1301EDE5D4A00C060BC /* SafariServices.framework in Frameworks */,
-				CFC5C1311EDE5D4A00C060BC /* Pods_CookingManager.framework in Frameworks */,
 				103E891F11C5862B7DAA96C1 /* Pods_CookingManagerStaging.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -188,7 +262,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFC5C1531EDE5D6900C060BC /* SafariServices.framework in Frameworks */,
-				CFC5C1541EDE5D6900C060BC /* Pods_CookingManager.framework in Frameworks */,
 				57810D314DDD6932EBB24AD7 /* Pods_CookingManagerReal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,7 +271,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFC5C1761EDE5D7800C060BC /* SafariServices.framework in Frameworks */,
-				CFC5C1771EDE5D7800C060BC /* Pods_CookingManager.framework in Frameworks */,
 				2AE491B4AA5F19A1740B469F /* Pods_CookingManagerAppstore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,6 +306,28 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CF0F44781EE7C8040093FDAC /* RequestEntities */ = {
+			isa = PBXGroup;
+			children = (
+				CFC5C1861EDE68D100C060BC /* APIBaseRequestEntity.swift */,
+				CF0F44791EE7C8740093FDAC /* APIGeoPointRequestEntity.swift */,
+				CF0F447E1EE7CA0B0093FDAC /* APICredentialRequestEntity.swift */,
+				CF0F44891EE7F50D0093FDAC /* APICheckVersionRequestEntity.swift */,
+			);
+			name = RequestEntities;
+			sourceTree = "<group>";
+		};
+		CF0F44831EE7CAC40093FDAC /* ResponseEnities */ = {
+			isa = PBXGroup;
+			children = (
+				CFC5C1961EDEC5ED00C060BC /* APIBaseResponseEntity.swift */,
+				CF0F449D1EE7FAEA0093FDAC /* APIGeoPointResponseEntity.swift */,
+				CF0F44841EE7CAFC0093FDAC /* APICredentialResponseEntity.swift */,
+				CF0F448E1EE7F5220093FDAC /* APICheckVersionResponseEntity.swift */,
+			);
+			name = ResponseEnities;
+			sourceTree = "<group>";
+		};
 		CF65B1871EDBC60B00CF0038 = {
 			isa = PBXGroup;
 			children = (
@@ -266,9 +360,12 @@
 				CFCC3BBC1EDD4AFC005C5C19 /* Cells */,
 				CF65B1BB1EDC170E00CF0038 /* Base */,
 				CF65B1B41EDBEDAE00CF0038 /* Model */,
+				CF0F44781EE7C8040093FDAC /* RequestEntities */,
+				CF0F44831EE7CAC40093FDAC /* ResponseEnities */,
 				CF65B1A51EDBD1E300CF0038 /* Constant.swift */,
+				CF0F44A21EE7FC690093FDAC /* SupportFunctions.swift */,
+				CF56B6921EE1642E00B583D5 /* CheckInputData.swift */,
 				CF65B1A71EDBE34E00CF0038 /* DatabaseManager.swift */,
-				CFC5C11B1EDE5BFE00C060BC /* APIManager.swift */,
 				CF65B1B91EDC15D400CF0038 /* CookingManager.sqlite */,
 				CF65B1971EDBC60C00CF0038 /* Main.storyboard */,
 				CF65B19A1EDBC60C00CF0038 /* Assets.xcassets */,
@@ -284,9 +381,9 @@
 			isa = PBXGroup;
 			children = (
 				CF65B1B51EDBEDBE00CF0038 /* BaseModel.swift */,
-				CFC5C1861EDE68D100C060BC /* APIBaseRequestEntity.swift */,
-				CFC5C1961EDEC5ED00C060BC /* APIBaseResponseEntity.swift */,
 				CF65B1B71EDBEFC400CF0038 /* FoodModel.swift */,
+				CF0F44931EE7F5600093FDAC /* VersionModel.swift */,
+				CF0F44981EE7F9D50093FDAC /* GeoPointModel.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -294,11 +391,13 @@
 		CF65B1BB1EDC170E00CF0038 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				CF65B1BC1EDC172D00CF0038 /* NavigationControllerBase.swift */,
-				CF65B1BE1EDC19E100CF0038 /* ViewControllerBase.swift */,
-				CF65B1C01EDC21B700CF0038 /* TableViewControllerBase.swift */,
-				CFCC3BC11EDD4B2E005C5C19 /* CollectionViewCellBase.swift */,
-				CF0EE4521EDD549E005C42CE /* TableViewCellBase.swift */,
+				CF65B1BC1EDC172D00CF0038 /* UINavigationControllerBase.swift */,
+				CF65B1BE1EDC19E100CF0038 /* UIViewControllerBase.swift */,
+				CF65B1C01EDC21B700CF0038 /* UITableViewControllerBase.swift */,
+				CFCC3BC11EDD4B2E005C5C19 /* UICollectionViewCellBase.swift */,
+				CF0EE4521EDD549E005C42CE /* UITableViewCellBase.swift */,
+				CF0F44691EE7A84A0093FDAC /* UILabelBase.swift */,
+				CF0F446E1EE7A8830093FDAC /* UIFlexibleFontSizeLable.swift */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -307,6 +406,8 @@
 			isa = PBXGroup;
 			children = (
 				CF65B1AF1EDBE85600CF0038 /* StringExtension.swift */,
+				CF0F44731EE7B0FE0093FDAC /* ColorExtension.swift */,
+				CFE5237D1EF128B800083A3C /* ErrorExtension.swift */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -317,6 +418,7 @@
 				CF65B1931EDBC60B00CF0038 /* AppDelegate.swift */,
 				CF65B1951EDBC60B00CF0038 /* HomeViewController.swift */,
 				CF65B1C61EDC23DD00CF0038 /* SplashViewController.swift */,
+				CF0F44551EE7A6DA0093FDAC /* LoginViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -326,6 +428,8 @@
 			children = (
 				CFCC3BBD1EDD4B16005C5C19 /* FoodViewCell.swift */,
 				CFCC3BBE1EDD4B16005C5C19 /* FoodViewCell.xib */,
+				CF0F445F1EE7A7B40093FDAC /* TextFieldInputCellTableViewCell.swift */,
+				CF0F44601EE7A7B40093FDAC /* TextFieldInputCellTableViewCell.xib */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -427,6 +531,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = MG2552XA6Q;
 						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					CFC5C11D1EDE5D4A00C060BC = {
 						DevelopmentTeam = MG2552XA6Q;
@@ -466,6 +575,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF65B19E1EDBC60C00CF0038 /* LaunchScreen.storyboard in Resources */,
+				CF0F44651EE7A7B40093FDAC /* TextFieldInputCellTableViewCell.xib in Resources */,
 				CF65B1AC1EDBE7C500CF0038 /* Localizable.strings in Resources */,
 				CF65B19B1EDBC60C00CF0038 /* Assets.xcassets in Resources */,
 				CF65B1BA1EDC15D400CF0038 /* CookingManager.sqlite in Resources */,
@@ -479,6 +589,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFC5C1331EDE5D4A00C060BC /* LaunchScreen.storyboard in Resources */,
+				CF0F44661EE7A7B40093FDAC /* TextFieldInputCellTableViewCell.xib in Resources */,
 				CFC5C1341EDE5D4A00C060BC /* Localizable.strings in Resources */,
 				CFC5C1351EDE5D4A00C060BC /* Assets.xcassets in Resources */,
 				CFC5C1361EDE5D4A00C060BC /* CookingManager.sqlite in Resources */,
@@ -492,6 +603,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFC5C1561EDE5D6900C060BC /* LaunchScreen.storyboard in Resources */,
+				CF0F44671EE7A7B40093FDAC /* TextFieldInputCellTableViewCell.xib in Resources */,
 				CFC5C1571EDE5D6900C060BC /* Localizable.strings in Resources */,
 				CFC5C1581EDE5D6900C060BC /* Assets.xcassets in Resources */,
 				CFC5C1591EDE5D6900C060BC /* CookingManager.sqlite in Resources */,
@@ -505,6 +617,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFC5C1791EDE5D7800C060BC /* LaunchScreen.storyboard in Resources */,
+				CF0F44681EE7A7B40093FDAC /* TextFieldInputCellTableViewCell.xib in Resources */,
 				CFC5C17A1EDE5D7800C060BC /* Localizable.strings in Resources */,
 				CFC5C17B1EDE5D7800C060BC /* Assets.xcassets in Resources */,
 				CFC5C17C1EDE5D7800C060BC /* CookingManager.sqlite in Resources */,
@@ -705,21 +818,36 @@
 			files = (
 				CFC5C1871EDE68D100C060BC /* APIBaseRequestEntity.swift in Sources */,
 				CFC5C1971EDEC5EE00C060BC /* APIBaseResponseEntity.swift in Sources */,
-				CFCC3BC21EDD4B2E005C5C19 /* CollectionViewCellBase.swift in Sources */,
-				CF65B1BD1EDC172D00CF0038 /* NavigationControllerBase.swift in Sources */,
+				CF0F44741EE7B0FE0093FDAC /* ColorExtension.swift in Sources */,
+				CF0F449E1EE7FAEA0093FDAC /* APIGeoPointResponseEntity.swift in Sources */,
+				CFCC3BC21EDD4B2E005C5C19 /* UICollectionViewCellBase.swift in Sources */,
+				CF65B1BD1EDC172D00CF0038 /* UINavigationControllerBase.swift in Sources */,
+				CF0F44561EE7A6DA0093FDAC /* LoginViewController.swift in Sources */,
+				CF0F44A31EE7FC690093FDAC /* SupportFunctions.swift in Sources */,
+				CF0F446A1EE7A84A0093FDAC /* UILabelBase.swift in Sources */,
 				CF65B1A81EDBE34E00CF0038 /* DatabaseManager.swift in Sources */,
 				CF65B1961EDBC60B00CF0038 /* HomeViewController.swift in Sources */,
+				CF0F447A1EE7C8740093FDAC /* APIGeoPointRequestEntity.swift in Sources */,
 				CF65B1B61EDBEDBE00CF0038 /* BaseModel.swift in Sources */,
+				CF56B6931EE1642F00B583D5 /* CheckInputData.swift in Sources */,
+				CF0F448F1EE7F5220093FDAC /* APICheckVersionResponseEntity.swift in Sources */,
 				CF65B1B01EDBE85600CF0038 /* StringExtension.swift in Sources */,
+				CF0F44991EE7F9D50093FDAC /* GeoPointModel.swift in Sources */,
+				CF0F44851EE7CAFC0093FDAC /* APICredentialResponseEntity.swift in Sources */,
 				CF65B1941EDBC60B00CF0038 /* AppDelegate.swift in Sources */,
-				CF65B1C11EDC21B700CF0038 /* TableViewControllerBase.swift in Sources */,
-				CF65B1BF1EDC19E100CF0038 /* ViewControllerBase.swift in Sources */,
+				CF65B1C11EDC21B700CF0038 /* UITableViewControllerBase.swift in Sources */,
+				CF0F44611EE7A7B40093FDAC /* TextFieldInputCellTableViewCell.swift in Sources */,
+				CF0F44941EE7F5600093FDAC /* VersionModel.swift in Sources */,
+				CFE5237E1EF128B800083A3C /* ErrorExtension.swift in Sources */,
+				CF65B1BF1EDC19E100CF0038 /* UIViewControllerBase.swift in Sources */,
 				CFCC3BBF1EDD4B16005C5C19 /* FoodViewCell.swift in Sources */,
 				CF65B1A61EDBD1E300CF0038 /* Constant.swift in Sources */,
+				CF0F447F1EE7CA0B0093FDAC /* APICredentialRequestEntity.swift in Sources */,
 				CF65B1B81EDBEFC400CF0038 /* FoodModel.swift in Sources */,
-				CFC5C11C1EDE5BFE00C060BC /* APIManager.swift in Sources */,
-				CF0EE4531EDD549E005C42CE /* TableViewCellBase.swift in Sources */,
+				CF0F446F1EE7A8830093FDAC /* UIFlexibleFontSizeLable.swift in Sources */,
+				CF0EE4531EDD549E005C42CE /* UITableViewCellBase.swift in Sources */,
 				CF65B1C71EDC23DD00CF0038 /* SplashViewController.swift in Sources */,
+				CF0F448A1EE7F50D0093FDAC /* APICheckVersionRequestEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -729,21 +857,36 @@
 			files = (
 				CFC5C1881EDE68D100C060BC /* APIBaseRequestEntity.swift in Sources */,
 				CFC5C1981EDEC5EE00C060BC /* APIBaseResponseEntity.swift in Sources */,
-				CFC5C1201EDE5D4A00C060BC /* CollectionViewCellBase.swift in Sources */,
-				CFC5C1211EDE5D4A00C060BC /* NavigationControllerBase.swift in Sources */,
+				CF0F44751EE7B0FE0093FDAC /* ColorExtension.swift in Sources */,
+				CF0F449F1EE7FAEA0093FDAC /* APIGeoPointResponseEntity.swift in Sources */,
+				CFC5C1201EDE5D4A00C060BC /* UICollectionViewCellBase.swift in Sources */,
+				CFC5C1211EDE5D4A00C060BC /* UINavigationControllerBase.swift in Sources */,
+				CF0F44571EE7A6DA0093FDAC /* LoginViewController.swift in Sources */,
+				CF0F44A41EE7FC690093FDAC /* SupportFunctions.swift in Sources */,
+				CF0F446B1EE7A84A0093FDAC /* UILabelBase.swift in Sources */,
 				CFC5C1221EDE5D4A00C060BC /* DatabaseManager.swift in Sources */,
 				CFC5C1231EDE5D4A00C060BC /* HomeViewController.swift in Sources */,
+				CF0F447B1EE7C8740093FDAC /* APIGeoPointRequestEntity.swift in Sources */,
 				CFC5C1241EDE5D4A00C060BC /* BaseModel.swift in Sources */,
+				CF56B6941EE1642F00B583D5 /* CheckInputData.swift in Sources */,
+				CF0F44901EE7F5220093FDAC /* APICheckVersionResponseEntity.swift in Sources */,
 				CFC5C1251EDE5D4A00C060BC /* StringExtension.swift in Sources */,
+				CF0F449A1EE7F9D50093FDAC /* GeoPointModel.swift in Sources */,
+				CF0F44861EE7CAFC0093FDAC /* APICredentialResponseEntity.swift in Sources */,
 				CFC5C1261EDE5D4A00C060BC /* AppDelegate.swift in Sources */,
-				CFC5C1271EDE5D4A00C060BC /* TableViewControllerBase.swift in Sources */,
-				CFC5C1281EDE5D4A00C060BC /* ViewControllerBase.swift in Sources */,
+				CFC5C1271EDE5D4A00C060BC /* UITableViewControllerBase.swift in Sources */,
+				CF0F44621EE7A7B40093FDAC /* TextFieldInputCellTableViewCell.swift in Sources */,
+				CF0F44951EE7F5600093FDAC /* VersionModel.swift in Sources */,
+				CFE5237F1EF128B800083A3C /* ErrorExtension.swift in Sources */,
+				CFC5C1281EDE5D4A00C060BC /* UIViewControllerBase.swift in Sources */,
 				CFC5C1291EDE5D4A00C060BC /* FoodViewCell.swift in Sources */,
 				CFC5C12A1EDE5D4A00C060BC /* Constant.swift in Sources */,
+				CF0F44801EE7CA0B0093FDAC /* APICredentialRequestEntity.swift in Sources */,
 				CFC5C12B1EDE5D4A00C060BC /* FoodModel.swift in Sources */,
-				CFC5C12C1EDE5D4A00C060BC /* APIManager.swift in Sources */,
-				CFC5C12D1EDE5D4A00C060BC /* TableViewCellBase.swift in Sources */,
+				CF0F44701EE7A8830093FDAC /* UIFlexibleFontSizeLable.swift in Sources */,
+				CFC5C12D1EDE5D4A00C060BC /* UITableViewCellBase.swift in Sources */,
 				CFC5C12E1EDE5D4A00C060BC /* SplashViewController.swift in Sources */,
+				CF0F448B1EE7F50D0093FDAC /* APICheckVersionRequestEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -753,21 +896,36 @@
 			files = (
 				CFC5C1891EDE68D100C060BC /* APIBaseRequestEntity.swift in Sources */,
 				CFC5C1991EDEC5EE00C060BC /* APIBaseResponseEntity.swift in Sources */,
-				CFC5C1431EDE5D6900C060BC /* CollectionViewCellBase.swift in Sources */,
-				CFC5C1441EDE5D6900C060BC /* NavigationControllerBase.swift in Sources */,
+				CF0F44761EE7B0FE0093FDAC /* ColorExtension.swift in Sources */,
+				CF0F44A01EE7FAEA0093FDAC /* APIGeoPointResponseEntity.swift in Sources */,
+				CFC5C1431EDE5D6900C060BC /* UICollectionViewCellBase.swift in Sources */,
+				CFC5C1441EDE5D6900C060BC /* UINavigationControllerBase.swift in Sources */,
+				CF0F44581EE7A6DA0093FDAC /* LoginViewController.swift in Sources */,
+				CF0F44A51EE7FC690093FDAC /* SupportFunctions.swift in Sources */,
+				CF0F446C1EE7A84A0093FDAC /* UILabelBase.swift in Sources */,
 				CFC5C1451EDE5D6900C060BC /* DatabaseManager.swift in Sources */,
 				CFC5C1461EDE5D6900C060BC /* HomeViewController.swift in Sources */,
+				CF0F447C1EE7C8740093FDAC /* APIGeoPointRequestEntity.swift in Sources */,
 				CFC5C1471EDE5D6900C060BC /* BaseModel.swift in Sources */,
+				CF56B6951EE1642F00B583D5 /* CheckInputData.swift in Sources */,
+				CF0F44911EE7F5220093FDAC /* APICheckVersionResponseEntity.swift in Sources */,
 				CFC5C1481EDE5D6900C060BC /* StringExtension.swift in Sources */,
+				CF0F449B1EE7F9D50093FDAC /* GeoPointModel.swift in Sources */,
+				CF0F44871EE7CAFC0093FDAC /* APICredentialResponseEntity.swift in Sources */,
 				CFC5C1491EDE5D6900C060BC /* AppDelegate.swift in Sources */,
-				CFC5C14A1EDE5D6900C060BC /* TableViewControllerBase.swift in Sources */,
-				CFC5C14B1EDE5D6900C060BC /* ViewControllerBase.swift in Sources */,
+				CFC5C14A1EDE5D6900C060BC /* UITableViewControllerBase.swift in Sources */,
+				CF0F44631EE7A7B40093FDAC /* TextFieldInputCellTableViewCell.swift in Sources */,
+				CF0F44961EE7F5600093FDAC /* VersionModel.swift in Sources */,
+				CFE523801EF128B800083A3C /* ErrorExtension.swift in Sources */,
+				CFC5C14B1EDE5D6900C060BC /* UIViewControllerBase.swift in Sources */,
 				CFC5C14C1EDE5D6900C060BC /* FoodViewCell.swift in Sources */,
 				CFC5C14D1EDE5D6900C060BC /* Constant.swift in Sources */,
+				CF0F44811EE7CA0B0093FDAC /* APICredentialRequestEntity.swift in Sources */,
 				CFC5C14E1EDE5D6900C060BC /* FoodModel.swift in Sources */,
-				CFC5C14F1EDE5D6900C060BC /* APIManager.swift in Sources */,
-				CFC5C1501EDE5D6900C060BC /* TableViewCellBase.swift in Sources */,
+				CF0F44711EE7A8830093FDAC /* UIFlexibleFontSizeLable.swift in Sources */,
+				CFC5C1501EDE5D6900C060BC /* UITableViewCellBase.swift in Sources */,
 				CFC5C1511EDE5D6900C060BC /* SplashViewController.swift in Sources */,
+				CF0F448C1EE7F50D0093FDAC /* APICheckVersionRequestEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -777,21 +935,36 @@
 			files = (
 				CFC5C18A1EDE68D100C060BC /* APIBaseRequestEntity.swift in Sources */,
 				CFC5C19A1EDEC5EE00C060BC /* APIBaseResponseEntity.swift in Sources */,
-				CFC5C1661EDE5D7800C060BC /* CollectionViewCellBase.swift in Sources */,
-				CFC5C1671EDE5D7800C060BC /* NavigationControllerBase.swift in Sources */,
+				CF0F44771EE7B0FE0093FDAC /* ColorExtension.swift in Sources */,
+				CF0F44A11EE7FAEA0093FDAC /* APIGeoPointResponseEntity.swift in Sources */,
+				CFC5C1661EDE5D7800C060BC /* UICollectionViewCellBase.swift in Sources */,
+				CFC5C1671EDE5D7800C060BC /* UINavigationControllerBase.swift in Sources */,
+				CF0F44591EE7A6DA0093FDAC /* LoginViewController.swift in Sources */,
+				CF0F44A61EE7FC690093FDAC /* SupportFunctions.swift in Sources */,
+				CF0F446D1EE7A84A0093FDAC /* UILabelBase.swift in Sources */,
 				CFC5C1681EDE5D7800C060BC /* DatabaseManager.swift in Sources */,
 				CFC5C1691EDE5D7800C060BC /* HomeViewController.swift in Sources */,
+				CF0F447D1EE7C8740093FDAC /* APIGeoPointRequestEntity.swift in Sources */,
 				CFC5C16A1EDE5D7800C060BC /* BaseModel.swift in Sources */,
+				CF56B6961EE1642F00B583D5 /* CheckInputData.swift in Sources */,
+				CF0F44921EE7F5220093FDAC /* APICheckVersionResponseEntity.swift in Sources */,
 				CFC5C16B1EDE5D7800C060BC /* StringExtension.swift in Sources */,
+				CF0F449C1EE7F9D50093FDAC /* GeoPointModel.swift in Sources */,
+				CF0F44881EE7CAFC0093FDAC /* APICredentialResponseEntity.swift in Sources */,
 				CFC5C16C1EDE5D7800C060BC /* AppDelegate.swift in Sources */,
-				CFC5C16D1EDE5D7800C060BC /* TableViewControllerBase.swift in Sources */,
-				CFC5C16E1EDE5D7800C060BC /* ViewControllerBase.swift in Sources */,
+				CFC5C16D1EDE5D7800C060BC /* UITableViewControllerBase.swift in Sources */,
+				CF0F44641EE7A7B40093FDAC /* TextFieldInputCellTableViewCell.swift in Sources */,
+				CF0F44971EE7F5600093FDAC /* VersionModel.swift in Sources */,
+				CFE523811EF128B800083A3C /* ErrorExtension.swift in Sources */,
+				CFC5C16E1EDE5D7800C060BC /* UIViewControllerBase.swift in Sources */,
 				CFC5C16F1EDE5D7800C060BC /* FoodViewCell.swift in Sources */,
 				CFC5C1701EDE5D7800C060BC /* Constant.swift in Sources */,
+				CF0F44821EE7CA0B0093FDAC /* APICredentialRequestEntity.swift in Sources */,
 				CFC5C1711EDE5D7800C060BC /* FoodModel.swift in Sources */,
-				CFC5C1721EDE5D7800C060BC /* APIManager.swift in Sources */,
-				CFC5C1731EDE5D7800C060BC /* TableViewCellBase.swift in Sources */,
+				CF0F44721EE7A8830093FDAC /* UIFlexibleFontSizeLable.swift in Sources */,
+				CFC5C1731EDE5D7800C060BC /* UITableViewCellBase.swift in Sources */,
 				CFC5C1741EDE5D7800C060BC /* SplashViewController.swift in Sources */,
+				CF0F448D1EE7F50D0093FDAC /* APICheckVersionRequestEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

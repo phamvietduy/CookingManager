@@ -27,14 +27,6 @@ class DatabaseManager: NSObject {
         self.dbQueue = FMDatabaseQueue(path: Constant.Path.dbPath)
     }
     
-    func executeQuery(query : String) ->Bool{
-        var result = false
-        self.dbQueue?.inDatabase({ (db) in
-            result = (db?.executeUpdate(query, withVAList: nil))!
-        })
-        return result
-    }
-    
     func fetchAll(tableName: String)->[[String: AnyObject]]{
         var result = [[String: AnyObject]]()
         self.dbQueue?.inDatabase({ (db) in

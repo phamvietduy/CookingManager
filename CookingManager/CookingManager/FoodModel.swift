@@ -26,41 +26,31 @@ class FoodModel: BaseModel {
         cooking_recipe <- map["cooking_recipe"]
     }
     
-    override func tableName() -> String {
+    override class func tableName() -> String {
         return Constant.TABLE.Food.rawValue
     }
     
-    static func createTable() ->Bool{
-        let query = "create table \(Constant.TABLE.Food) (name text, from_country text, cooking_recipe text, unique(name))"
+    class func createTable() ->Bool{
+        let query = "create table if not exist \(Constant.TABLE.Food) (id interger primary key, name text, from_country text, cooking_recipe text, unique(name))"
         let databaseManager = DatabaseManager.shareInstance
-        if databaseManager.executeQuery(query: query) != true {
-            debugPrint("create table fail")
-            return false
-        }
+        databaseManager.dbQueue?.inDatabase({ (db: FMDatabase?) in
+            do
+            {
+                try db?.executeUpdate(query, values: nil)
+            }
+            catch {
+                debugPrint("create table error")
+            }
+        })
         return true
     }
     
-    static func fetchAll() ->[FoodModel]{
+    class func fetchAll() ->[FoodModel]{
         let databaseManager = DatabaseManager.shareInstance
         let arrayResult = databaseManager.fetchAll(tableName: Constant.TABLE.Food.rawValue)
         if arrayResult.count > 0 {
             return Mapper<FoodModel>().mapArray(JSONArray: arrayResult)!
         }
         return [FoodModel]()
-    }
-    
-    func insertValue()->Bool{
-        var arrData = [[String:String]]()
-        var obj1 = [String:String]()
-        obj1["name"] = "Banh xeo"
-        obj1["from_country"] = "Viet Nam"
-        obj1["cooking_recipe"] = "Quen mat"
-        arrData.append(obj1)
-        let databaseManager = DatabaseManager.shareInstance
-        if databaseManager.saveValues(arrayData:arrData , tableName: self.tableName()) == true{
-            debugPrint("save successfully")
-            return true
-        }
-        return false
     }
 }

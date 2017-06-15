@@ -10,7 +10,7 @@ import Foundation
 import SafariServices
 import UIKit
 
-class NavigationControllerBase: UINavigationController,UINavigationControllerDelegate {
+class UINavigationControllerBase: UINavigationController,UINavigationControllerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.delegate = self;

@@ -12,7 +12,7 @@ protocol ViewControllerBaseProtocol {
     var hasNavigationBar : Bool {get}
 }
 
-class ViewControllerBase: UIViewController, ViewControllerBaseProtocol {
+class UIViewControllerBase: UIViewController, ViewControllerBaseProtocol {
     override var prefersStatusBarHidden: Bool{
         return false;
     }

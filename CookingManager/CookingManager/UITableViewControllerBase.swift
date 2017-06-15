@@ -8,7 +8,7 @@
 
 import Foundation
 
-class TableViewController : UITableViewController, ViewControllerBaseProtocol{
+class UITableViewControllerBase : UITableViewController, ViewControllerBaseProtocol{
     
     override var prefersStatusBarHidden: Bool{
         return false

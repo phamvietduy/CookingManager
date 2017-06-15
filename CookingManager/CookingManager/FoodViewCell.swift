@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FoodViewCell: TableViewCellBase {
+class FoodViewCell: UITableViewCellBase {
 
     @IBOutlet weak var icon: UIImageView!
     @IBOutlet weak var lable: UILabel!
@@ -20,5 +20,9 @@ class FoodViewCell: TableViewCellBase {
     func setData(data:FoodModel){
         self.icon.image = UIImage.init(named: "food")
         self.lable.text = data.name! + "\n" + data.from_country! + "\n" + data.cooking_recipe!
+    }
+    func setGeoPointData(data:GeoPointModel){
+        self.icon.image = UIImage.init(named: "food")
+        self.lable.text = data.name
     }
 }

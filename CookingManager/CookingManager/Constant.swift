@@ -14,6 +14,8 @@ class Constant: NSObject {
     enum TABLE : String {
         case Food
         case Country
+        case GeoPoint
+        case UserInfo
     }
     
     struct Path {
@@ -29,6 +31,11 @@ class Constant: NSObject {
         static let SCREEN_MAX_LENGTH    = max(ScreenSize.SCREEN_WIDTH, ScreenSize.SCREEN_HEIGHT)
         static let SCREEN_MIN_LENGTH    = min(ScreenSize.SCREEN_WIDTH, ScreenSize.SCREEN_HEIGHT)
         static let SCALE                = UIScreen.main.scale
+    }
+    
+    enum ErrorCode: Error {
+        case InputIsEmpty
+        case WrongFormat
     }
     
     struct Api {
@@ -48,7 +55,19 @@ class Constant: NSObject {
         #endif
         
         static var GetPin = "1/position/"
+        static var GetCredential = "1/credential/"
+        static var CheckVersion = "1/version/"
+        static var GetUserInfo = "1/user"
+        static var GetGeoPoint = "1/map/position/"
     }
     
+    struct Color{
+//        static let grayColor = UIColor(
+    }
     
+    struct UserDefault{
+        static var userToken = "UserToken"
+        static var appToken = "AppToken"
+        static var geoTableVersion = "geoTableVersion"
+    }
 }
